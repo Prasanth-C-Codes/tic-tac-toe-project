@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-image: linear-gradient( rgba(7,154,113,1) 47%, rgba(21,255,0,1) );
+    background-size: cover; 
+    background-repeat:no-repeat; 
+    background-position:center center; 
+    height:100vh; 
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-top: 10vh;
+  margin-bottom: 10px;
+  font-size: 120%;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .square {
+    width: 45px;
+    height: 45px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 375px) {
+  .square {
+    width: 38px;
+    height: 38px;
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 200px) {
+  .square {
+    width: 27px;
+    height: 27px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .square {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .square {
+    width: 75px;
+    height: 75px;
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .square {
+    width: 90px;
+    height: 90px;
+    font-size: 45px;
+  }
+}
